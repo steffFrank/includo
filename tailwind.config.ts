@@ -17,26 +17,26 @@ const config: Config = {
         extend: {
             colors: {
                 primary: {
-                    "100": "#FFF4E3", // Soft warm beige
-                    "500": "#C57B57", // Warm terracotta
+                    "100": "#FFF4E3",
+                    "500": "#C57B57",
                 },
 
                 secondary: {
-                    "100": "#FFE8D6", // Soft peach
-                    "500": "#B5651D", // Rich amber
+                    "100": "#FFE8D6",
+                    "500": "#B5651D",
                 },
 
                 accent: {
-                    "100": "#F5E4C3", // Pale sandy yellow
-                    "500": "#A3754E", // Muted earthy brown
+                    "100": "#F5E4C3",
+                    "500": "#A3754E",
                 },
 
                 neutral: {
-                    "100": "#F6F6F6", // Light gray for backgrounds
-                    "300": "#D1D5DB", // Mid-gray for borders and subtle elements
-                    "500": "#6B7280", // Neutral gray for text
-                    "700": "#374151", // Darker gray for emphasis
-                    "900": "#1F2937", // Almost black
+                    "100": "#F6F6F6",
+                    "300": "#D1D5DB",
+                    "500": "#6B7280",
+                    "700": "#374151",
+                    "900": "#1F2937",
                 },
 
                 dark: {
@@ -48,11 +48,11 @@ const config: Config = {
                 },
 
                 light: {
-                    "400": "#A8B5C3", // Muted cool blue-gray
-                    "500": "#7F9DA8", // Medium cool gray
-                    "700": "#E8EFF5", // Pale cool white
-                    "800": "#F9FBFC", // Very light cool white
-                    "850": "#FFFFFF", // Pure white
+                    "400": "#A8B5C3",
+                    "500": "#7F9DA8",
+                    "700": "#E8EFF5",
+                    "800": "#F9FBFC",
+                    "850": "#FDFDFD",
                     "900": "#FFFFFF",
                 },
             },
