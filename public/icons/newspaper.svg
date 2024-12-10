@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2" />
+
+  <!-- Newspaper Rectangle -->
+  <rect x="16" y="16" width="32" height="32" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" />
+
+  <!-- Headline -->
+  <rect x="20" y="20" width="24" height="4" fill="#2563EB" />
+
+  <!-- Content Lines -->
+  <rect x="20" y="28" width="20" height="2" fill="#E5E7EB" />
+  <rect x="20" y="34" width="20" height="2" fill="#E5E7EB" />
+  <rect x="20" y="40" width="20" height="2" fill="#E5E7EB" />
+</svg>

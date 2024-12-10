@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Book -->
+  <path d="M20 22h24v20H20z" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" />
+  <path d="M20 22l12 8 12-8" fill="#F3F4F6" stroke="#1F2937" stroke-width="2" />
+  
+  <!-- Arc Symbolizing Progress -->
+  <path
+    d="M32 6a26 26 0 1 1-18.385 7.615"
+    fill="none"
+    stroke="#2563EB"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <!-- Arrow on the Arc -->
+  <path
+    d="M13.615 13.615L20 7m0 6.615l-6.385-6.385"
+    fill="none"
+    stroke="#2563EB"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

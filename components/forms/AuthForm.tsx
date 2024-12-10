@@ -22,7 +22,7 @@ import {
     FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import ROUTES from "@/constants/route";
+import ROUTES from "@/constants/routes";
 
 interface AuthFormProps<T extends FieldValues> {
     formType: "SIGN_IN" | "SIGN_UP";

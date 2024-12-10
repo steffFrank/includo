@@ -4,6 +4,7 @@ const ROUTES = {
     SIGN_UP: "/registrati",
     COURSES: "/corsi",
     BLOG: "/blog",
+    PROFILE: "/profilo",
     TESTIMONIALS: "/testimonianze",
     CONTACT: "/contatti",
     ADMIN: {
