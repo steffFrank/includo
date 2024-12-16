@@ -1,7 +1,14 @@
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card";
 
 export default function HomePage() {
     return (
@@ -73,38 +80,38 @@ export default function HomePage() {
                     <h2 className="mb-8 text-center text-3xl font-semibold">
                         Cosa dicono di noi
                     </h2>
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                        <div className=" rounded-lg bg-white p-6 shadow-md">
-                            <p className="mb-4 text-gray-600">
+                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+                        <Card className="p-6">
+                            <CardContent>
                                 “IncluDO mi ha aiutato a scoprire una nuova
                                 carriera e a migliorare la mia vita.”
-                            </p>
-                            <h4 className="text-lg font-semibold">
+                            </CardContent>
+                            <CardFooter className="text-lg font-semibold">
                                 Mario Rossi
-                            </h4>
-                        </div>
-                        <div className=" rounded-lg bg-white p-6 shadow-md">
-                            <p className="mb-4 text-gray-600">
+                            </CardFooter>
+                        </Card>
+                        <Card className="p-6">
+                            <CardContent>
                                 “Grazie a IncluDO ho trovato una comunità che mi
                                 sostiene in ogni passo.”
-                            </p>
-                            <h4 className="text-lg font-semibold">
+                            </CardContent>
+                            <CardFooter className="text-lg font-semibold">
                                 Luca Bianchi
-                            </h4>
-                        </div>
-                        <div className=" rounded-lg bg-white p-6 shadow-md">
-                            <p className="mb-4 text-gray-600">
+                            </CardFooter>
+                        </Card>
+                        <Card className="p-6">
+                            <CardContent>
                                 “I corsi di artigianato sono stati un’esperienza
                                 straordinaria e unica.”
-                            </p>
-                            <h4 className="text-lg font-semibold">
+                            </CardContent>
+                            <CardFooter className="text-lg font-semibold">
                                 Giulia Verdi
-                            </h4>
-                        </div>
+                            </CardFooter>
+                        </Card>
                     </div>
                 </div>
             </section>
-            <footer className="bg-primary-500 py-12 text-white">
+            <footer className="bg-primary-500 px-2 py-12 text-white">
                 &copy;includo 2024
             </footer>
         </div>
