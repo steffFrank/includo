@@ -255,19 +255,22 @@ body {
     }
 
     .card-wrapper {
-        @apply bg-light-900 dark:dark-gradient shadow-light-100 dark:shadow-dark-100;
+        @apply bg-light-700 dark:dark-gradient shadow-light-100 dark:shadow-dark-100;
     }
 
     .btn {
-        @apply bg-light-800 dark:bg-dark-300 !important;
+        @apply bg-light-800 dark:bg-dark-300 p-6 !important;
     }
 
+    .btn-primary {
+        @apply bg-primary-500 dark:bg-dark-400 p-6 !important;
+    }
     .btn-secondary {
-        @apply bg-neutral-600 dark:bg-dark-400 !important;
+        @apply bg-light-500 dark:bg-dark-400 p-6 hover:invert-colors !important;
     }
 
     .btn-tertiary {
-        @apply bg-light-700 dark:bg-dark-300 !important;
+        @apply bg-light-700 dark:bg-dark-300 p-6 !important;
     }
 
     .no-focus {

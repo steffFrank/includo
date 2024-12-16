@@ -1,14 +1,13 @@
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function HomePage() {
     return (
         <div>
             <section className="w-full text-center">
-                <div className="flex-center container  mb-32 mt-12 flex-col gap-10">
+                <div className="flex-center container mb-32 mt-12 flex-col gap-10">
                     <h1 className="primary-text-gradient m-auto text-center text-2xl font-bold md:text-6xl">
                         Formazione Professionale Con
                         <br />
